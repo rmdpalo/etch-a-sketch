@@ -1,0 +1,24 @@
+:root {
+  --container-dimension: calc(var(--unit-dimension) * 16);
+  --unit-dimension: 30px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: var(--container-dimension);
+  height: var(--container-dimension);
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.square {
+  width: var(--unit-dimension);
+  height: var(--unit-dimension);
+  margin: 0;
+}
+
+.hovered {
+  background-color: black;
+}
