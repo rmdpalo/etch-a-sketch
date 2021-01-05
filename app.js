@@ -1,5 +1,5 @@
 const container = document.querySelector('#container');
-let penStyle = 'black';
+let penStyle = 'rgb(61, 61, 61)';
 //generates the grid
 
     //TODO: allow the grid's dimension to be dynamic (8-64 units);
@@ -19,7 +19,7 @@ const gridUnits = document.querySelectorAll('.unit');
 
 clearButton.addEventListener('click', (e) => {
     gridUnits.forEach((unit) => {
-        unit.style.backgroundColor = 'white';
+        unit.style.backgroundColor = 'lightgrey';
     }) 
 });
 
@@ -27,14 +27,14 @@ clearButton.addEventListener('click', (e) => {
 const blackButton = document.querySelector('#black-button');
 
 blackButton.addEventListener('click', (e) => {
-    penStyle = 'black';
+    penStyle = 'rgb(61, 61, 61)';
 })
 
 //eraser pen
 const eraserButton = document.querySelector('#eraser-button');
 
 eraserButton.addEventListener('click', (e) => {
-    penStyle = 'white';
+    penStyle = 'lightgrey';
 })
 
 //rainbow pen
