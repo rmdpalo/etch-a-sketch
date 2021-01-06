@@ -1,5 +1,5 @@
 :root {
-  --container-dimension: calc(var(--unit-dimension) * 16);
+  --container-dimension: 484px;
   --unit-dimension: 30px;
   --drawn: rgb(61, 61, 61);
 }
@@ -35,7 +35,7 @@ main {
 }
 
 button {
-  width: 16%;
+  width: 20%;
   text-decoration: none;
   padding: 1rem;
   border-radius: 50px;
@@ -64,8 +64,8 @@ button {
 }
 
 .square {
-  width: var(--unit-dimension);
-  height: var(--unit-dimension);
+  /* width: var(--unit-dimension);
+  height: var(--unit-dimension); */
   margin: 0;
   transition: 0.25s;
   background-color: lightgrey;
